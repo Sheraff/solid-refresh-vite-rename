@@ -1,5 +1,7 @@
 # solid-refresh: renaming a component on Vite
 
+Issues: https://github.com/solidjs/solid-refresh/issues/89 (0.7.3 output) and https://github.com/solidjs/solid-refresh/issues/90 (0.7.8 output)
+
 Minimal repro for two solid-refresh HMR bugs on Vite. `repro.mjs` edits the text of `Page`, renames it to
 `RenamedPage`, edits the text again, and prints the DOM after each step.
 
